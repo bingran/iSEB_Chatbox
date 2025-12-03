@@ -1,0 +1,62 @@
+1. Download ESP-IDF
+
+Go to the official Espressif website for ESP-IDF v5.4.1.
+
+Download the Windows Offline Installer.
+
+Save it in a folder, for example: C:\ESP\esp-idf-v5.4.1.
+
+2. Install ESP-IDF
+
+Run the installer you downloaded.
+
+Choose an installation folder (e.g., C:\ESP\esp-idf-v5.4.1).
+
+During installation, let it install Python, Git, CMake, and the toolchain if prompted.
+
+3. Set up environment for Command Prompt
+
+Open Command Prompt.
+
+Navigate to your ESP-IDF folder:
+cd C:\ESP\esp-idf-v5.4.1
+
+Run the setup script to configure environment variables for CMD:
+
+If first time: install.bat
+
+To set up environment in a CMD session: export.bat
+
+Note: You need to run export.bat in each new CMD window before using idf.py.
+
+4. Test ESP-IDF installation
+
+In the CMD window where you ran export.bat, type:
+idf.py --version
+
+It should display v5.4.1.
+
+5. Create and build a project
+
+Navigate to your project folder:
+cd C:\YourProjectFolder
+
+Set the target chip (example for ESP32-S3):
+idf.py set-target esp32s3
+
+Build the project:
+idf.py build
+
+Flash it to your board:
+idf.py flash
+
+Monitor output:
+idf.py monitor
+
+Tips
+
+Always run export.bat in any new CMD session to make ESP-IDF tools available.
+
+If you want permanent access, you can add ESP-IDF paths to Windows Environment Variables.
+
+Make sure Python version installed by ESP-IDF matches the supported version for v5.4.1.
