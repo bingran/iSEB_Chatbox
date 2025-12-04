@@ -19,7 +19,7 @@ It features:
 
 # 📑 Table of Contents
 1. [Overview](#overview)  
-2. [Block diagram](#Block-diagran)  
+2. [Block diagram](#block-diagram)
 3. [XiaoZhi-ESP32 (iSEB ChatBox Fork)](#xiaozhi-esp32-for-iseb-chatbox)  
 4. [ESP32-S3 Pinout Mapping](#esp32-s3-pinout-mapping)  
    - [LCD SPI Display](#lcd-spi-display)  
@@ -44,6 +44,7 @@ It features:
 ---
 
 # Block diagram
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ae496111-835d-4f41-b5e6-b733e7055338" />
 
 # XiaoZhi-ESP32 for iSEB ChatBox
 
