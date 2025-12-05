@@ -32,7 +32,11 @@ It features:
    - [Keys](#keys)  
    - [LED Indicators](#led-indicators)  
    - [Relays](#relays)   
-4. [Related Documents](#Related-Documents)  
+4. [Related Documents](#Related-Documents)
+   - [Datasheet](#Datasheet)
+   - [Hardware](#hardware)
+   - [Schematic](#schematic)
+   - [PCB Layout](#pcb-layout)
 
 ---
 
@@ -228,3 +232,14 @@ I2C:
 [ESP32-S3 Datasheet (PDF)](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf)
 
 [ESP32-S3-WROOM-1 & ESP32-S3-WROOM-1U Datasheet (PDF)](https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
+
+### Hardware
+<img width="1057" height="615" alt="image"
+src="https://github.com/user-attachments/assets/013eb033-1e56-44cb-aa63-c9c6f0b98903" />
+
+### Schematic
+[iSEB_ChatBox_Schematic.pdf](https://github.com/user-attachments/files/23964509/iSEB_ChatBox_Schematic.pdf)
+
+### PCB layout
+[iSEB_ChatBox_PCB_layout.pdf](https://github.com/user-attachments/files/23964518/iSEB_ChatBox_PCB_layout.pdf)
+
