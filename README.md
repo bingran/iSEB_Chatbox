@@ -232,6 +232,9 @@ src="https://github.com/user-attachments/assets/013eb033-1e56-44cb-aa63-c9c6f0b9
 ---
 ## Code
 ### Example
+
+https://github.com/bingran/iSEB_Chatbox/tree/main/Code
+
 ### XiaoZhi-ESP32 for iSEB ChatBox
 
 This repository is a **modified fork of the XiaoZhi-ESP32 project** customized for iSEB_ChatBox.  
