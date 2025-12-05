@@ -19,9 +19,8 @@ It features:
 
 # 📑 Table of Contents
 1. [Overview](#overview)  
-2. [Block diagram](#block-diagram)
-3. [XiaoZhi-ESP32 (iSEB ChatBox Fork)](#xiaozhi-esp32-for-iseb-chatbox)  
-4. [ESP32-S3 Pinout Mapping](#esp32-s3-pinout-mapping)  
+2. [XiaoZhi-ESP32 (iSEB ChatBox Fork)](#xiaozhi-esp32-for-iseb-chatbox)  
+3. [ESP32-S3 Pinout Mapping](#esp32-s3-pinout-mapping)  
    - [LCD SPI Display](#lcd-spi-display)  
    - [Camera OV2640](#camera-ov2640)  
    - [Audio Codec ES8388](#audio-codec-es8388)  
@@ -32,8 +31,8 @@ It features:
    - [IO Expander XL9555](#io-expander-xl9555)  
    - [Keys](#keys)  
    - [LED Indicators](#led-indicators)  
-   - [Relays](#relays)  
-5. [Power System](#power-system)
+   - [Relays](#relays)   
+4. [Related Documents](#Related-Documents)  
 
 ---
 
@@ -42,9 +41,6 @@ It features:
 <img width="817" height="522" alt="image" src="https://github.com/user-attachments/assets/733d9a87-b3b2-42aa-a10c-879841ea9e94" />
 
 ---
-
-# Block diagram
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ae496111-835d-4f41-b5e6-b733e7055338" />
 
 # XiaoZhi-ESP32 for iSEB ChatBox
 
@@ -62,6 +58,7 @@ GitHub Repo:
 👉 https://github.com/bingran/xiaozhi-esp32
 
 # ESP32-S3 Pinout Mapping
+
 
 ---
 
@@ -193,3 +190,9 @@ I2C:
 |--------|----------------|
 | Relay 1 | XL9555 (IOO7)  |
 | Relay 2 | XL9555 (IOO7)  |
+
+---
+## Related Documents
+### Datasheet
+[ESP32-S3 Datasheet (PDF)](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf)
+[ESP32-S3-WROOM-1 & ESP32-S3-WROOM-1U Datasheet (PDF)](https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
