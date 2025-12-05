@@ -1,0 +1,192 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM11 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM11 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[1;31m--- Error: GetOverlappedResult failed (PermissionError(13, 'Access is denied.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- 0x4200b183: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:216
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+--- 0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x4200b180: gpio_output_enable at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_driver_gpio/src/gpio.c:215
+--- 0x4037dc11: xTaskRemoveFromEventList at C:/Users/bingr/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3935
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0;33m--- 0x40375d35: esp_ipc_isr_handler at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S:66
+[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is 3ae25f5407f7afdb580857d35076a257e7c43972444db5e7fca27dae9541725f[0m
+[0m
+Traceback (most recent call last):
+  File "C:\Users\bingr\esp\v5.4.1\esp-idf\tools/idf_monitor.py", line 11, in <module>
+    sys.exit(subprocess.run([sys.executable, '-m', 'esp_idf_monitor'] + sys.argv[1:]).returncode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1201, in communicate
+    self.wait()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1590, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

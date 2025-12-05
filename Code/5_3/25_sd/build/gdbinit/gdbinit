@@ -1,0 +1,2 @@
+source C:/ESP32S3/5_3/25_sd/build/gdbinit/symbols
+source C:/ESP32S3/5_3/25_sd/build/gdbinit/connect

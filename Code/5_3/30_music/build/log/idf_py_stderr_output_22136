@@ -1,0 +1,7 @@
+CMake Warning at C:/Users/bingr/esp/v5.4.1/esp-idf/tools/cmake/component.cmake:297 (message):
+  No source files found for SRC_DIRS entry 'APP'.
+Call Stack (most recent call first):
+  C:/Users/bingr/esp/v5.4.1/esp-idf/tools/cmake/component.cmake:454 (__component_add_sources)
+  main/CMakeLists.txt:1 (idf_component_register)
+
+

@@ -1,0 +1,2 @@
+source C:/ESP32S3/5_3/09_iic_exio/build/bootloader/gdbinit/symbols
+source C:/ESP32S3/5_3/09_iic_exio/build/bootloader/gdbinit/connect

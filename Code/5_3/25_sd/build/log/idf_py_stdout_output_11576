@@ -1,0 +1,7 @@
+[1/4] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\ESP32S3\5_3\25_sd\build\esp-idf\esptool_py && C:\Users\bingr\.espressif\python_env\idf5.4_py3.12_env\Scripts\python.exe C:/Users/bingr/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/ESP32S3/5_3/25_sd/build/partition_table/partition-table.bin C:/ESP32S3/5_3/25_sd/build/26_sd.bin"
+26_sd.bin binary size 0x5dfd0 bytes. Smallest app partition is 0x1f0000 bytes. 0x192030 bytes (81%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\ESP32S3\5_3\25_sd\build\bootloader\esp-idf\esptool_py && C:\Users\bingr\.espressif\python_env\idf5.4_py3.12_env\Scripts\python.exe C:/Users/bingr/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 C:/ESP32S3/5_3/25_sd/build/bootloader/bootloader.bin"
+Bootloader binary size 0x57c0 bytes. 0x2840 bytes (31%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'

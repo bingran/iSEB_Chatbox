@@ -1,0 +1,463 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM8 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM8 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x42002065: uart_ll_get_txfifo_len at C:/Users/bingr/esp/v5.4.1/esp-idf/components/hal/esp32s3/include/hal/uart_ll.h:410
+---  (inlined by) panic_print_char_uart at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:90
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0;33m--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+[0m
+[0;33m--- 0x40375c91: panic_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4037ba25: esp_system_abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x4038226d: abort at C:/Users/bingr/esp/v5.4.1/esp-idf/components/newlib/abort.c:38
+--- 0x4037556d: call_start_cpu0 at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/cpu_start.c:600
+--- 0x40045c01: ets_run_flash_bootloader in ROM
+--- 0x40043ab6: main in ROM
+--- 0x40034c45: .stack_ok in ROM
+[0m
+[0;33m--- 0x40375bd1: esp_restart_noos at C:/Users/bingr/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c:160
+[0m
+[0m
+Traceback (most recent call last):
+  File "C:\Users\bingr\esp\v5.4.1\esp-idf\tools/idf_monitor.py", line 11, in <module>
+    sys.exit(subprocess.run([sys.executable, '-m', 'esp_idf_monitor'] + sys.argv[1:]).returncode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1201, in communicate
+    self.wait()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1590, in _wait
+    result = _winapi.WaitForSingleObject(self._handle,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
