@@ -59,6 +59,48 @@ GitHub Repo:
 
 # ESP32-S3 Pinout Mapping
 
+| Pin | GPIO | Remarks |
+|-----|-------|---------|
+| 1   | GND   | - |
+| 2   | 3V3   | - |
+| 3   | EN    | RESET |
+| 4   | IO4   | OV_D0 |
+| 5   | IO5   | OV_D1 |
+| 6   | IO6   | OV_D2 |
+| 7   | IO7   | OV_D3 |
+| 8   | IO15  | OV_D4 |
+| 9   | IO16  | OV_D5 |
+| 10  | IO17  | OV_D6 |
+| 11  | IO18  | OV_D7 |
+| 12  | IO8   | SOIL SENSOR |
+| 13  | IO19  | USB D− |
+| 14  | IO20  | USB D+ |
+| 15  | IO3   | I2S_MCLK |
+| 16  | IO46  | I2S_SCK |
+| 17  | IO9   | I2S_LRCK |
+| 18  | IO10  | I2S_SDIN |
+| 19  | IO11  | SPI_MISO |
+| 20  | IO12  | SPI_SCK |
+| 21  | IO13  | SPI_MISO |
+| 22  | IO14  | I2S_DOUT |
+| 23  | IO21  | SLCD_CS |
+| 24  | IO47  | OV_VSYNC |
+| 25  | IO48  | OV_HREF |
+| 26  | IO45  | OV_PCLK |
+| 27  | IO0   | BOOT |
+| 28  | IO35  | NC |
+| 29  | IO36  | NC |
+| 30  | IO37  | IIC_INT  |
+| 31  | IO38  | OV_SCL  |
+| 32  | IO39  | OV_SDA |
+| 33  | IO40  | IO_SEL |
+| 34  | IO41  | IIC_SDA |
+| 35  | IO42  | IIC_SCL |
+| 36  | RXD0  | - |
+| 37  | TXD0  | - |
+| 38  | IO2   | TF_CS |
+| 39  | IO1   | LED |
+| 40  | GND   | - |
 
 ---
 
@@ -148,10 +190,16 @@ GitHub Repo:
 
 ---
 
+## LED Indicators
+| LED | ESP32 Pin |
+|-----|-----------|
+| LED1 (Blue) | PWR |
+| LED2 (Red) | IO1 |
+
+---
+
 ## IO Expander XL9555
-
 Used for:
-
 - LCD Power  
 - LCD Reset  
 - Camera Reset  
@@ -165,6 +213,16 @@ I2C:
 - **SCL = IO1**  
 - **SDA = IO2**
 
+| Input | Function | Output | Function |
+|-----|-----------|-----|-----------|
+| IOI0 | Reserved | IOO0 | Reserved |
+| IOI1 | Reserved | IOO1 | Reserved |
+| IOI2 | SLCD_RST | IOO2 | SPK_EN |
+| IOI3 | SLCD_PWR | IOO3 | Reserved |
+| IOI4 | KEY3 | IOO4 | OV_PWDN |
+| IOI5 | KEY2 | IOO5 | OV_RESET |
+| IOI6 | KEY1 | IOO6 | Relay1 |
+| IOI7 | KEY0 | IOO7 | Relay2 |
 ---
 
 ## Keys
@@ -177,14 +235,6 @@ I2C:
 
 ---
 
-## LED Indicators
-| LED | ESP32 Pin |
-|-----|-----------|
-| LED1 (Blue) | PWR |
-| LED2 (Red) | IO1 |
-
----
-
 ## Relays
 | Relay | Control Source |
 |--------|----------------|
@@ -194,5 +244,7 @@ I2C:
 ---
 ## Related Documents
 ### Datasheet
+
 [ESP32-S3 Datasheet (PDF)](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf)
+
 [ESP32-S3-WROOM-1 & ESP32-S3-WROOM-1U Datasheet (PDF)](https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
