@@ -59,48 +59,28 @@ GitHub Repo:
 
 # ESP32-S3 Pinout Mapping
 
-| Pin | GPIO | Remarks |
-|-----|-------|---------|
-| 1   | GND   | - |
-| 2   | 3V3   | - |
-| 3   | EN    | RESET |
-| 4   | IO4   | OV_D0 |
-| 5   | IO5   | OV_D1 |
-| 6   | IO6   | OV_D2 |
-| 7   | IO7   | OV_D3 |
-| 8   | IO15  | OV_D4 |
-| 9   | IO16  | OV_D5 |
-| 10  | IO17  | OV_D6 |
-| 11  | IO18  | OV_D7 |
-| 12  | IO8   | SOIL SENSOR |
-| 13  | IO19  | USB D− |
-| 14  | IO20  | USB D+ |
-| 15  | IO3   | I2S_MCLK |
-| 16  | IO46  | I2S_SCK |
-| 17  | IO9   | I2S_LRCK |
-| 18  | IO10  | I2S_SDIN |
-| 19  | IO11  | SPI_MISO |
-| 20  | IO12  | SPI_SCK |
-| 21  | IO13  | SPI_MISO |
-| 22  | IO14  | I2S_DOUT |
-| 23  | IO21  | SLCD_CS |
-| 24  | IO47  | OV_VSYNC |
-| 25  | IO48  | OV_HREF |
-| 26  | IO45  | OV_PCLK |
-| 27  | IO0   | BOOT |
-| 28  | IO35  | NC |
-| 29  | IO36  | NC |
-| 30  | IO37  | IIC_INT  |
-| 31  | IO38  | OV_SCL  |
-| 32  | IO39  | OV_SDA |
-| 33  | IO40  | IO_SEL |
-| 34  | IO41  | IIC_SDA |
-| 35  | IO42  | IIC_SCL |
-| 36  | RXD0  | - |
-| 37  | TXD0  | - |
-| 38  | IO2   | TF_CS |
-| 39  | IO1   | LED |
-| 40  | GND   | - |
+| Pin | GPIO | Remarks     | Pin | GPIO | Remarks     |
+|-----|-------|-------------|-----|-------|-------------|
+| 1   | GND   | -           | 21  | IO13  | SPI_MISO    |
+| 2   | 3V3   | -           | 22  | IO14  | I2S_DOUT    |
+| 3   | EN    | RESET       | 23  | IO21  | SLCD_CS     |
+| 4   | IO4   | OV_D0       | 24  | IO47  | OV_VSYNC    |
+| 5   | IO5   | OV_D1       | 25  | IO48  | OV_HREF     |
+| 6   | IO6   | OV_D2       | 26  | IO45  | OV_PCLK     |
+| 7   | IO7   | OV_D3       | 27  | IO0   | BOOT        |
+| 8   | IO15  | OV_D4       | 28  | IO35  | NC          |
+| 9   | IO16  | OV_D5       | 29  | IO36  | NC          |
+| 10  | IO17  | OV_D6       | 30  | IO37  | IIC_INT     |
+| 11  | IO18  | OV_D7       | 31  | IO38  | OV_SCL      |
+| 12  | IO8   | SOIL SENSOR | 32  | IO39  | OV_SDA      |
+| 13  | IO19  | USB D−      | 33  | IO40  | IO_SEL      |
+| 14  | IO20  | USB D+      | 34  | IO41  | IIC_SDA     |
+| 15  | IO3   | I2S_MCLK    | 35  | IO42  | IIC_SCL     |
+| 16  | IO46  | I2S_SCK     | 36  | RXD0  | UART RX     |
+| 17  | IO9   | I2S_LRCK    | 37  | TXD0  | UART TX     |
+| 18  | IO10  | I2S_SDIN    | 38  | IO2   | TF_CS       |
+| 19  | IO11  | SPI_MISO    | 39  | IO1   | LED         |
+| 20  | IO12  | SPI_SCK     | 40  | GND   | -           |
 
 ---
 
