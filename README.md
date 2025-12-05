@@ -135,13 +135,10 @@ GitHub Repo:
 ## SD Card (TF Card)
 | Signal | ESP32 Pin |
 |--------|-----------|
-| CMD | IO4 |
-| CLK | IO5 |
-| DATA0 | IO6 |
-| DATA1 | IO7 |
-| DATA2 | IO15 |
-| DATA3 | IO16 |
-| TF_CS | IO45 |
+| SPI_SCK | IO12 | Shared SPI bus |
+| SPI_MOSI | IO11 | Shared SPI bus |
+| SPI_MISO | IO13 | Shared SPI bus |
+| TF_CS | IO2 |
 
 ---
 
@@ -176,26 +173,23 @@ I2C:
 ## Keys
 | Button | ESP32 Pin |
 |--------|-----------|
-| KEY0 | IO46 |
-| KEY1 | IO47 |
-| KEY2 | IO48 |
-| KEY3 | XL9555 |
+| KEY0 | XL9555 (IOI7) |
+| KEY1 | XL9555 (IOI6) |
+| KEY2 | XL9555 (IOI5) |
+| KEY3 | XL9555 (IOI4) |
 
 ---
 
 ## LED Indicators
 | LED | ESP32 Pin |
 |-----|-----------|
-| LED1 (Blue) | IO3 |
-| LED2 (Red) | IO14 |
+| LED1 (Blue) | PWR |
+| LED2 (Red) | IO1 |
 
 ---
 
 ## Relays
 | Relay | Control Source |
 |--------|----------------|
-| Relay 1 | XL9555 |
-| Relay 2 | XL9555 |
-
-
-Just tell me!
+| Relay 1 | XL9555 (IOO7)  |
+| Relay 2 | XL9555 (IOO7)  |
