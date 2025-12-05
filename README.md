@@ -19,8 +19,7 @@ It features:
 
 # 📑 Table of Contents
 1. [Overview](#overview)  
-2. [XiaoZhi-ESP32 (iSEB ChatBox Fork)](#xiaozhi-esp32-for-iseb-chatbox)  
-3. [ESP32-S3 Pinout Mapping](#esp32-s3-pinout-mapping)  
+2. [ESP32-S3 Pinout Mapping](#esp32-s3-pinout-mapping)  
    - [LCD SPI Display](#lcd-spi-display)  
    - [Camera OV2640](#camera-ov2640)  
    - [Audio Codec ES8388](#audio-codec-es8388)  
@@ -32,11 +31,14 @@ It features:
    - [Keys](#keys)  
    - [LED Indicators](#led-indicators)  
    - [Relays](#relays)   
-4. [Related Documents](#Related-Documents)
+3. [Related Documents](#Related-Documents)
    - [Datasheet](#Datasheet)
    - [Hardware](#hardware)
    - [Schematic](#schematic)
    - [PCB Layout](#pcb-layout)
+4. [Code](#Code)
+   - [Example](#Example)
+   - [XiaoZhi-ESP32 (iSEB ChatBox Fork)](#xiaozhi-esp32-for-iseb-chatbox)  
 
 ---
 
@@ -45,21 +47,6 @@ It features:
 <img width="817" height="522" alt="image" src="https://github.com/user-attachments/assets/733d9a87-b3b2-42aa-a10c-879841ea9e94" />
 
 ---
-
-# XiaoZhi-ESP32 for iSEB ChatBox
-
-This repository is a **modified fork of the XiaoZhi-ESP32 project** customized for iSEB_ChatBox.  
-It enables:
-
-- Wi-Fi connectivity  
-- Voice wake word  
-- Speech recognition  
-- Text-to-speech (TTS)  
-- Audio playback  
-- OTA firmware updates  
-
-GitHub Repo:  
-👉 https://github.com/bingran/xiaozhi-esp32
 
 # ESP32-S3 Pinout Mapping
 
@@ -105,7 +92,7 @@ GitHub Repo:
 ## Camera OV2640
 | Function | ESP32-S3 Pin |
 |----------|--------------|
-| OV_D0 | IO4 |
+| OV_D0 | IO4 | 
 | OV_D1 | IO5 |
 | OV_D2 | IO6 |
 | OV_D3 | IO7 |
@@ -113,7 +100,6 @@ GitHub Repo:
 | OV_D5 | IO16 |
 | OV_D6 | IO17 |
 | OV_D7 | IO18 |
-| OV_PCLK | IO45 |
 | OV_VSYNC | IO47 |
 | OV_HREF | IO48 |
 | OV_PWDN | XL9555 (IOO4)|
@@ -242,4 +228,20 @@ src="https://github.com/user-attachments/assets/013eb033-1e56-44cb-aa63-c9c6f0b9
 
 ### PCB layout
 [iSEB_ChatBox_PCB_layout.pdf](https://github.com/user-attachments/files/23964518/iSEB_ChatBox_PCB_layout.pdf)
+---
+## Code
+### Example
+# XiaoZhi-ESP32 for iSEB ChatBox
 
+This repository is a **modified fork of the XiaoZhi-ESP32 project** customized for iSEB_ChatBox.  
+It enables:
+
+- Wi-Fi connectivity  
+- Voice wake word  
+- Speech recognition  
+- Text-to-speech (TTS)  
+- Audio playback  
+- OTA firmware updates  
+
+GitHub Repo:  
+👉 https://github.com/bingran/xiaozhi-esp32
