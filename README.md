@@ -19,7 +19,9 @@ It features:
 
 # 📑 Table of Contents
 1. [Overview](#overview)  
-2. [Interface](#Interface)  
+2. [Interface](#Interface)
+   - [USB](#USB)  
+   - [LCD Display](#LCD-Display)    
 3. [ESP32-S3 Pinout Mapping](#esp32-s3-pinout-mapping)  
    - [LCD SPI Display](#lcd-spi-display)  
    - [Camera OV2640](#camera-ov2640)  
@@ -68,7 +70,7 @@ The CH340C USB Type-C port converts USB to UART.
 Both ports allow programming the ESP32-S3, which makes development easier and more reliable.
 
 ## LCD Display
-It provide a 2x4p 2.54mm socket connectors for LCD display 
+It provide a 2x4p 2.54mm female socket connectors for LCD display.
 
 | Pin | Function    | Pin | Function    |
 |-----|-------------|-----|-------------|
@@ -77,7 +79,24 @@ It provide a 2x4p 2.54mm socket connectors for LCD display
 | 5   | SPI_SCK     | 6   | SPI_MOSI    |
 | 7   | IO_SEL      | 8   | SLCD_RST    |
 
-It is able to drive a [2.4 inch LCD module](http://47.111.11.73/docs/modules/lcd/2.4-TFTLCD.html).
+iSEB ChatBox supports [2.4 inch LCD module](http://47.111.11.73/docs/modules/lcd/2.4-TFTLCD.html).
+
+## Camera 
+It provide a 2x9p 2.54mm female socket connector for camera.
+
+| Pin | Function    | Pin | Function    |
+|-----|-------------|-----|-------------|
+| 1   | 3v3         | 2   | GND         |
+| 3   | SCL         | 4   | VS          |
+| 5   | SDA         | 6   | HR          |
+| 7   | D0          | 8   | RST         |
+| 9   | D2          | 10  | D1          |
+| 11  | D4          | 12  | D3          |
+| 13  | D6          | 14  | D5          |
+| 15  | CLK         | 16  | D7          |
+| 17  | PWD         | 18  | NC          |
+
+iSEB ChatBox supports [OV2640 Camera module](http://47.111.11.73/docs/modules/camera/ov2640.html?highlight=ov2640).
 
 ---
 
