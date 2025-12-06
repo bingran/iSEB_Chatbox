@@ -68,8 +68,14 @@ Both ports allow programming the ESP32-S3, which makes development easier and mo
 
 It provide a 2x4p 2.54mm socket connectors for LCD display 
 
-| 1-GND   | 3-SLCD_PWR | 5-SPI_SCK  | 7-IO_SEL | 
-| 2-3v3   | 4-SLCD_CS  | 6-SPI_MOSI | 8-SLCD_RST | 
+| Pin | Function    | Pin | Function    |
+|-----|-------------|-----|-------------|
+| 1   | GND         | 2   | 3V3         |
+| 3   | SLCD_PWR    | 4   | SLCD_CS     |
+| 5   | SPI_SCK     | 6   | SPI_MOSI    |
+| 7   | IO_SEL      | 8   | SLCD_RST    |
+
+It able to drive a [2.4 inch lcd module]((http://47.111.11.73/docs/modules/lcd/2.4-TFTLCD.html)).   
 
 ---
 
