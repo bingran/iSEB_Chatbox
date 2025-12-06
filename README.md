@@ -52,6 +52,7 @@ It features:
 # Interface
 The iSEB ChatBox includes several interface for power, expansion, display and sensors.
 
+## USB
 It includes two USB Type-C ports:
 
 The Native USB Type-C port is wired directly to the ESP32-S3 USB-OTG pins (D+ / D−).
@@ -66,6 +67,7 @@ The CH340C USB Type-C port converts USB to UART.
 
 Both ports allow programming the ESP32-S3, which makes development easier and more reliable.
 
+## LCD Display
 It provide a 2x4p 2.54mm socket connectors for LCD display 
 
 | Pin | Function    | Pin | Function    |
@@ -75,7 +77,7 @@ It provide a 2x4p 2.54mm socket connectors for LCD display
 | 5   | SPI_SCK     | 6   | SPI_MOSI    |
 | 7   | IO_SEL      | 8   | SLCD_RST    |
 
-It able to drive a [2.4 inch lcd module]((http://47.111.11.73/docs/modules/lcd/2.4-TFTLCD.html)).   
+It is able to drive a [2.4 inch LCD module](http://47.111.11.73/docs/modules/lcd/2.4-TFTLCD.html).
 
 ---
 
