@@ -19,7 +19,8 @@ It features:
 
 # 📑 Table of Contents
 1. [Overview](#overview)  
-2. [ESP32-S3 Pinout Mapping](#esp32-s3-pinout-mapping)  
+2. [Interface](#Interface)  
+3. [ESP32-S3 Pinout Mapping](#esp32-s3-pinout-mapping)  
    - [LCD SPI Display](#lcd-spi-display)  
    - [Camera OV2640](#camera-ov2640)  
    - [Audio Codec ES8388](#audio-codec-es8388)  
@@ -31,12 +32,12 @@ It features:
    - [Keys](#keys)  
    - [LED Indicators](#led-indicators)  
    - [Relays](#relays)   
-3. [Related Documents](#Related-Documents)
+4. [Related Documents](#Related-Documents)
    - [Datasheet](#Datasheet)
    - [Hardware](#hardware)
    - [Schematic](#schematic)
    - [PCB Layout](#pcb-layout)
-4. [Code](#Code)
+5. [Code](#Code)
    - [Example](#Example)
    - [XiaoZhi-ESP32 (iSEB ChatBox Fork)](#xiaozhi-esp32-for-iseb-chatbox)  
 
@@ -45,6 +46,30 @@ It features:
 # Overview
 
 <img width="817" height="522" alt="image" src="https://github.com/user-attachments/assets/733d9a87-b3b2-42aa-a10c-879841ea9e94" />
+
+---
+
+# Interface
+The iSEB ChatBox includes several interface for power, expansion, display and sensors.
+
+It includes two USB Type-C ports:
+
+The Native USB Type-C port is wired directly to the ESP32-S3 USB-OTG pins (D+ / D−).
+   -   Supports firmware flashing
+   -   Acts as USB CDC for serial logs
+   -   Supports HID / MSC / WebUSB / TinyUSB features
+     
+The CH340C USB Type-C port converts USB to UART.
+   -   Also supports flashing the ESP32-S3
+   -   Works like a traditional USB-TTL debugger
+   -   Useful when the native USB is busy or damaged
+
+Both ports allow programming the ESP32-S3, which makes development easier and more reliable.
+
+It provide a 2x4p 2.54mm socket connectors for LCD display 
+
+| 1-GND   | 3-SLCD_PWR | 5-SPI_SCK  | 7-IO_SEL | 
+| 2-3v3   | 4-SLCD_CS  | 6-SPI_MOSI | 8-SLCD_RST | 
 
 ---
 
