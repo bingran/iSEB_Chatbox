@@ -19,9 +19,17 @@ It features:
 
 # 📑 Table of Contents
 1. [Overview](#overview)  
-2. [Interface](#Interface)
-   - [USB](#USB)  
-   - [LCD Display](#LCD-Display)    
+2. [Interface](#interface)
+   - [USB](#usb)  
+   - [LCD Display](#lcd-display)    
+   - [Camera](#camera)
+   - [Relay](#relay)
+   - [Battery Connector](#battery-connector)
+   - [SD Card Slot](#sd-card-slot)
+   - [Sensors](#sensors)
+     - [3-Pin Soil Sensor](#3-pin-254-mm-jst-connector-soil-sensor)
+     - [4-Pin Temp & Humidity Sensor](#4-pin-254-mm-jst-connector-temperature--humidity-sensor)
+   - [UART Connector](#uart-connector)
 3. [ESP32-S3 Pinout Mapping](#esp32-s3-pinout-mapping)  
    - [LCD SPI Display](#lcd-spi-display)  
    - [Camera OV2640](#camera-ov2640)  
@@ -54,6 +62,8 @@ It features:
 # Interface
 The iSEB ChatBox includes several interface for power, expansion, display and sensors.
 
+---
+
 ## USB
 It includes two USB Type-C ports:
 
@@ -69,6 +79,8 @@ The CH340C USB Type-C port converts USB to UART.
 
 Both ports allow programming the ESP32-S3, which makes development easier and more reliable.
 
+---
+
 ## LCD Display
 It provide a 2x4p 2.54mm female socket connectors for LCD display.
 
@@ -80,6 +92,8 @@ It provide a 2x4p 2.54mm female socket connectors for LCD display.
 | 7   | IO_SEL      | 8   | SLCD_RST    |
 
 iSEB ChatBox supports [2.4 inch LCD module](http://47.111.11.73/docs/modules/lcd/2.4-TFTLCD.html).
+
+---
 
 ## Camera 
 It provide a 2x9p 2.54mm female socket connector for camera.
@@ -97,6 +111,62 @@ It provide a 2x9p 2.54mm female socket connector for camera.
 | 17  | PWD         | 18  | NC          |
 
 iSEB ChatBox supports [OV2640 Camera module](http://47.111.11.73/docs/modules/camera/ov2640.html?highlight=ov2640).
+
+---
+
+## Relay
+There are two relays in iSEB ChatBox. They use **3-pin screw terminals (NO, COM, NC)**.
+
+**Terminal order (left → right on PCB):** `NO | COM | NC`  
+Relay specs: [SRD-05VDC-SL-C Datasheet (PDF)](https://github.com/user-attachments/files/24010494/SRD-05VDC-SL-C-Datasheet.pdf)
+
+**Safety note:** Relays can switch mains voltage — include wiring and insulation warnings and recommend fuses if used with high current or mains.
+
+---
+
+## Battery connector
+Battery connector datasheet (male on board): [XT30UPB-M.pdf](https://github.com/user-attachments/files/24010499/C428721.pdf)  
+Mating plug (female): [XT30UPB-F.pdf](https://github.com/user-attachments/files/24010507/C108769.pdf)
+
+**Power conversion:** The board uses an LM2596 switching DC-DC converter to generate 5V from an input range up to 40V.  
+LM2596 datasheet: [LM2596.pdf](https://github.com/user-attachments/files/24010523/C10002.pdf)
+
+**Relevant circuit (provided):**  
+![Power circuit image](https://github.com/user-attachments/assets/3bc9bcbc-d7e8-4475-8acc-2036597b9487)  
+*Figure: DC-DC converter and battery input circuit.*
+
+The following is the relavent circuit.
+<img width="908" height="452" alt="image" src="https://github.com/user-attachments/assets/3bc9bcbc-d7e8-4475-8acc-2036597b9487" />
+
+---
+
+## SD card slot
+iSEB Chatbox able to  support up to 32gb SDHC (High Capacity) card with a Class 4 (HC1) speed rating. The SD card slot is wired in SPI mode.
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a0fda449-b776-4713-a001-13a6f61a9cdc" />
+
+---
+
+## Sensors
+Two connector types are provided for sensors. Connector datasheet: [JST connector.pdf](https://github.com/user-attachments/files/24011003/C144395.pdf)
+
+### 3-pin 2.54 mm JST connector (soil sensor)
+![JST 3-pin image](https://github.com/user-attachments/assets/5707016a-f54b-4bf7-abb3-76caffae7860)
+
+- **Header:** JST B3B-XH-A (PCB)
+- **Mating housing:** XHP-3 + crimp contacts
+- Typical wiring: `VCC | GND | SIGNAL` 
+
+### 4-pin 2.54 mm JST connector (temperature & humidity sensor)
+![JST 4-pin image](https://github.com/user-attachments/assets/e8607d3c-bc56-4b4f-b483-6db651545670)
+
+- **Header:** JST B4B-XH-A (PCB)
+- **Mating housing:** XHP-4 + crimp contacts
+- Typical wiring (example for digital sensor): `VCC | GND | SDA | SCL` 
+
+---
+
+### UART connector
+A 4-pin 2.54 mm JST connector is also provided for UART communication to other controllers (TX, RX, VCC, GND).
 
 ---
 
