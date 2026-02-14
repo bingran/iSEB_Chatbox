@@ -135,9 +135,6 @@ LM2596 datasheet: [LM2596.pdf](https://github.com/user-attachments/files/2401052
 ![Power circuit image](https://github.com/user-attachments/assets/3bc9bcbc-d7e8-4475-8acc-2036597b9487)  
 *Figure: DC-DC converter and battery input circuit.*
 
-The following is the relavent circuit.
-<img width="908" height="452" alt="image" src="https://github.com/user-attachments/assets/3bc9bcbc-d7e8-4475-8acc-2036597b9487" />
-
 ---
 
 ## SD card slot
